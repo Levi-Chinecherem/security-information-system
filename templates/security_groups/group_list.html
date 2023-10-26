@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Security Groups</h2>
+  <ul>
+    {% for group in groups %}
+      <li>
+        <a href="{% url 'group_detail' group.pk %}">{{ group.name }}</a>
+      </li>
+    {% empty %}
+      <li>No security groups available.</li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'security_group_create' %}">Create New Group</a>
+{% endblock %}

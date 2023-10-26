@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Security Incident Details</h2>
+  <p><strong>Title:</strong> {{ object.title }}</p>
+  <p><strong>Description:</strong> {{ object.description }}</p>
+  <p><strong>Timestamp:</strong> {{ object.timestamp }}</p>
+  <!-- Add more fields as needed -->
+  <a href="{% url 'incident_list' %}">Back to Incident List</a>
+{% endblock %}

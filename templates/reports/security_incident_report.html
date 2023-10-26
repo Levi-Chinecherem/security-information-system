@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Security Incident Report</h2>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Total Incidents</h5>
+            <p class="card-text">{{ total_incidents }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Total Users</h5>
+            <p class="card-text">{{ total_users }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Total Security Groups</h5>
+            <p class="card-text">{{ total_groups }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Latest Security Incident</h5>
+            <p class="card-text">{{ latest_incident }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Latest Security Group</h5>
+            <p class="card-text">{{ latest_group }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more reporting components as needed -->
+  </div>
+</div>
+{% endblock %}

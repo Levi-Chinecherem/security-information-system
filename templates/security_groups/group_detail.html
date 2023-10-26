@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Security Group Details</h2>
+  <p><strong>Name:</strong> {{ object.name }}</p>
+  <p><strong>Description:</strong> {{ object.description }}</p>
+  <p><strong>Members:</strong>
+    {% for user in object.members.all %}
+      {{ user.username }}
+      {% if not forloop.last %}, {% endif %}
+    {% endfor %}
+  </p>
+  <!-- Add more fields as needed -->
+  <a href="{% url 'security_group_list' %}">Back to Group List</a>
+{% endblock %}

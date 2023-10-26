@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Security Incidents</h2>
+  <ul>
+    {% for incident in incidents %}
+      <li>
+        <a href="{% url 'incident_detail' incident.pk %}">{{ incident.title }}</a> - {{ incident.timestamp }}
+      </li>
+    {% empty %}
+      <li>No incidents reported.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
