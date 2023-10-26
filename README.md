@@ -74,25 +74,25 @@ The Security Information System consists of the following components:
 
 The dashboard provides administrators with a real-time overview of the system. It displays key statistics, including the total number of security incidents, users, and security groups. The dashboard also shows the latest security incident and security group created.
 
-![Dashboard Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p2.png)
+![Dashboard Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/dashboard.png)
 
 ### Security Incidents
 
 The Security Incidents section allows you to create, view, and manage security incidents. You can provide incident details, including title, description, location, and involved parties.
 
-![Security Incidents Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p3.png)
+![Security Incidents Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p2.png)
 
 ### Security Groups
 
 The Security Groups section allows you to manage security groups. You can create and manage groups, specifying their names, descriptions, and members.
 
-![Security Groups Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p4.png)
+![Security Groups Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p3.png)
 
 ### Reporting
 
 The reporting section provides analysis tools for security incidents. It includes data visualization and insights for better decision-making.
 
-![Reporting Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p5.png)
+![Reporting Screenshot](https://github.com/Levi-Chinecherem/security-information-system/blob/main/sample_outputs/p4.png)
 
 ## Contributing
 
